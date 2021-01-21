@@ -1,6 +1,6 @@
 import React from 'react'
 import {FirstSection, InfoRow, InfoColumn, TextWrapper, ImgWrapper, Img} from './HomeThree.styled';
-import Djole from '../../imgs/Djole.png';
+import Licenca from '../../imgs/licenca.jpg';
 import { Container } from '../../GlobalStyle';
 
 const HomeOne = () => {
@@ -11,7 +11,7 @@ const HomeOne = () => {
                     <InfoRow>
                         <InfoColumn>
                         <ImgWrapper>
-                                <Img src={Djole} alt={"djole"}/>
+                                <Img src={Licenca} alt={"licenca"}/>
                             </ImgWrapper> 
                         </InfoColumn>
                         <InfoColumn>

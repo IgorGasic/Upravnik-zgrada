@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const FirstSection = styled.div`
     color:black;
-    padding: 40px 0;
+    padding: 120px 0 100px 0;
 `
 
 export const InfoRow = styled.div`
@@ -51,7 +51,8 @@ export const TextWrapper= styled.div`
 
 export const Img = styled.img`
     padding-right: 0;
-    border: 0;
+    border: 20px solid;
+    border-style: ridge;
     max-width: 100%;
     vertical-align: middle;
     display: inline-block;

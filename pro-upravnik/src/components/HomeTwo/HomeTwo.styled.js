@@ -26,7 +26,7 @@ export const ServiceWrapper = styled.div`
     }
 `
 export const ServiceCard = styled.div`
-    background: #fefff0;
+    background: #f5c276;
     display: flex;
     flex-direction:column;
     align-items: center;
@@ -58,7 +58,7 @@ export const ServiceIcon = styled.img`
 `
 export const ServiceHeading = styled.h1`
     font-size: 2.5rem;
-    color: #fefff0;
+    color: #ff9b03;
     margin-bottom: 50px;
     text-shadow: 0 2px 2px rgba(0, 0, 0, 0.8);
 
@@ -74,6 +74,7 @@ export const ServiceHeading = styled.h1`
 export const ServiceH3 = styled.h3`
     font-size:1.5rem;
     margin-bottom: 10px;
+    text-align:center;
 `
 export const ServiceList = styled.ul`
     margin: 10px 0 32px;
@@ -86,6 +87,6 @@ export const ServiceList = styled.ul`
 export const ListItem = styled.li`
     margin-bottom: 5px;
     text-align:center;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     
 `

@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const FirstSection = styled.div`
     color:black;
-    padding: 40px 0;
 `
 
 export const InfoRow = styled.div`
@@ -12,7 +11,7 @@ export const InfoRow = styled.div`
     align-items:center;
 `
 export const InfoColumn = styled.div`
-    margin-bottom:15px;
+    margin-bottom: 15px;
     padding-right: 15px;
     padding-left: 15px;
     flex: 1;

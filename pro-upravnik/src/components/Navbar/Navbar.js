@@ -13,13 +13,13 @@ const Navbar = () => {
 
     return (
         <> 
-        {/* <img src={slika} alt="slika" style={{height:"90vh", width:"100%", margin:"0px", padding:"0px", bottom:0}}/> */}
-         <IconContext.Provider value={{color: "#fff"}}>
+        <img src={slika} alt="slika" style={{height:"80vh", width:"100%", marginBottom:"-5px", padding:"0px"}}/>
+         <IconContext.Provider value={{color: "#ff9b03"}}>
             <Nav>
                 <NavbarContainer>
                     <NavLogo to='/'>
                       <NavIcon />
-                        PRO UPRAVNIK ZGRADA
+                        NS PRO UPRAVNIK ZGRADA
                     </NavLogo>
                     <MobileIcon onClick={handleClick}>
                         {click ? <FaTimes /> : <FaBars />}
@@ -36,7 +36,7 @@ const Navbar = () => {
                             </NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='/kontakt'>
+                            <NavLinks to='/contact'>
                                 Kontakt
                             </NavLinks>
                         </NavItem>

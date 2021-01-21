@@ -30,11 +30,12 @@ export const NavLogo = styled(Link)`
     display:flex;
     align-items:center;
     text-decoration:none;
-    color: #fff;
+    color:#ff9b03;
     font-size: 2rem;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.8);
 
     @media screen and (max-width: 800px){
-        font-size: 1.6rem;
+        font-size: 1.3rem;
     } 
 `
 export const NavIcon = styled(BiBuildingHouse)`
@@ -80,7 +81,7 @@ export const NavItem = styled.li`
     font-size:1.5rem;
     
     &:hover{
-        border-bottom: 2px solid #fff;
+        border-bottom: 2px solid #ff9b03;
     }
     
     @media screen and (max-width: 960px){
@@ -92,12 +93,13 @@ export const NavItem = styled.li`
     }
 `
 export const NavLinks = styled(Link)`
-    color: #fff;
+    color: #ff9b03;
     display: flex;
     align-items: center;
     text-decoration: none;
     padding: 0.5rem 1rem;
     height:100%;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
 
     @media screen and (max-width: 960px){
         text-align:center;

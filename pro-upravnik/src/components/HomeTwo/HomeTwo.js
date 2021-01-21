@@ -3,7 +3,7 @@ import {SecondSection, ServiceHeading, ServiceWrapper, ServiceCard, ServiceIcon,
 import Icon1 from '../../imgs/Icon1.svg';
 import Icon2 from '../../imgs/Icon2.svg';
 import Icon3 from '../../imgs/Icon3.svg';
-
+import Icon4 from '../../imgs/Icon4.svg';
 
 const HomeTwo = () => {
     return (
@@ -16,17 +16,17 @@ const HomeTwo = () => {
                         <ServiceH3>Administrativni poslovi</ServiceH3>
                         <ServiceList>
                             <ListItem>•	Osnivanje stambene zajednice</ListItem>
-                            <ListItem>•	Registracija PIB-a i matičnog broja stambene zajednice i izrada pečata</ListItem>
+                            <ListItem>•	Registracija matičnog broja stambene zajednice, PIB-a i izrada pečata</ListItem>
                             <ListItem>•	Zastupanje stambene zajednice</ListItem>
                             <ListItem>•	Upis stambene zajednice u Registar stambenih zajednica lokalne samouprave</ListItem>
                             <ListItem>•	Podnošenje prijave za registraciju Pravila vlasnika</ListItem>
                             <ListItem>•	Zaključivanje ugovora za održavanje stambene zgrade i održavanje higijene</ListItem>
-                            <ListItem>•	Izrada izveštaja o radu  i podnošenje vlasnicima stanova</ListItem>
+                            <ListItem>•	Izrada izveštaja o radu</ListItem>
                         </ServiceList>
                     </ServiceCard>
                     <ServiceCard>
                         <ServiceIcon src={Icon2} />
-                        <ServiceH3>Finansiski poslovi</ServiceH3>
+                        <ServiceH3>Finansijski poslovi</ServiceH3>
                         <ServiceList>
                             <ListItem>•	Raspolaganje sredstvima sa tekućeg računa stambene zajednice</ListItem>
                             <ListItem>•	Vođenje evidencije o prihodima i rashodima stambene zajednice</ListItem>
@@ -42,6 +42,18 @@ const HomeTwo = () => {
                             <ListItem>•	Realizacija radova na hitnim intervencijama ( u što kraćem vremenskom roku a najkasnije 48 sati od prijave vlasnika stanova.)</ListItem>
                             <ListItem>•	Sprovođenje i realizacija godišnjeg programa održavanja na tekućem održavanju</ListItem>
                             <ListItem>•	Sprovođenje i realizacija programa na investicionom održavanju</ListItem>
+                        </ServiceList>
+                    </ServiceCard>
+                    <ServiceCard>
+                        <ServiceIcon src={Icon4} />
+                        <ServiceH3>Čišćenje profesionalnim mašinama</ServiceH3>
+                        <ServiceList>
+                            <ListItem>•	Mašinsko pranje ulaza i stepenište zgrade</ListItem>
+                            <ListItem>•	Mašinsko pranje poslovnih prostora, magacina i garaža</ListItem>
+                            <ListItem>•	Mašinsko pranje tvrdih podloga</ListItem>
+                            <ListItem>•	Dubinsko pranje nameštaja</ListItem>
+                            <ListItem>•	Dubinsko pranje automobila</ListItem>
+                            <ListItem>•	Uslužno vršimo pranje i dezinfekciju škola, vrtića, domova zdravlja, kafića, restorana i dr...</ListItem>
                         </ServiceList>
                     </ServiceCard>
                 </ServiceWrapper>
