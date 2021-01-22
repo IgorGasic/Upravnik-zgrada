@@ -43,6 +43,12 @@ export const FooterLinksItems = styled.div`
     width: 220px;
     box-sizing:border-box;
     color: #fff;
+
+    @media screen and (max-width: 820px){
+        margin: 0;
+        padding: 10px;
+        width: 100%;
+    }
     
     @media screen and (max-width: 420px){
         margin: 0;
@@ -56,6 +62,7 @@ export const FooterLinkTitle = styled.h2`
 `
 
 export const FooterText = styled.p`
+    display:inline-flex;
     color: #fff;
     margin-bottom: 0.8rem;
 `
@@ -63,10 +70,11 @@ export const FooterLink = styled(Link)`
     color: #fff;
     margin-bottom: 0.8rem;
     text-decoration: none;
-    
+    display:inline-flex;
 `
 export const Icon1 = styled(GoLocation)`
     margin-right:0.2rem;
+
 `
 export const Icon2 = styled(CgWorkAlt)`
     margin-right:0.4rem;

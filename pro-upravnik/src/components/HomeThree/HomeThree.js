@@ -1,6 +1,6 @@
 import React from 'react'
 import {FirstSection, InfoRow, InfoColumn, TextWrapper, ImgWrapper, Img} from './HomeThree.styled';
-import Licenca from '../../imgs/licenca.jpg';
+import Licenca from '../../imgs/licencaa.jpg';
 import { Container } from '../../GlobalStyle';
 
 const HomeOne = () => {

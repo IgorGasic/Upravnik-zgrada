@@ -31,8 +31,7 @@ export const TextWrapper= styled.div`
     padding-top: 0;
     padding-bottom: 60px;
     font-size: 1.9rem;
-    text-justify: inter-word;
-    text-align: center;
+    text-align:center;
     font-weight: bold;
     word-spacing: 0rem;
 

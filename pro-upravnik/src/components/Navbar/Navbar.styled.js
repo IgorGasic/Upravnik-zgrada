@@ -34,8 +34,12 @@ export const NavLogo = styled(Link)`
     font-size: 2rem;
     text-shadow: 0 2px 2px rgba(0, 0, 0, 0.8);
 
-    @media screen and (max-width: 800px){
-        font-size: 1.3rem;
+    @media screen and (max-width: 760px){
+        font-size: 1.1rem;
+    }
+
+    @media screen and (max-width: 320px){
+        font-size: 1rem;
     } 
 `
 export const NavIcon = styled(BiBuildingHouse)`
