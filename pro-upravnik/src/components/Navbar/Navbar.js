@@ -1,8 +1,16 @@
 import React, {useState} from 'react';
-import {Nav, NavbarContainer, NavLogo, NavIcon, MobileIcon, NavMenu, NavItem, NavLinks} from './Navbar.styled';
 import slika from '../../imgs/NoviSad.jpg'
 import {FaBars, FaTimes} from 'react-icons/fa';
 import {IconContext} from 'react-icons/lib';
+import {
+    Nav, 
+    NavbarContainer, 
+    NavLogo, 
+    NavIcon, 
+    MobileIcon, 
+    NavMenu, 
+    NavItem, 
+    NavLinks} from './Navbar.styled';
 
 const Navbar = () => {
 

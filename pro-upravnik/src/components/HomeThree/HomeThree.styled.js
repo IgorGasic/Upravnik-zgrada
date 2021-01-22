@@ -51,7 +51,7 @@ export const TextWrapper= styled.div`
 
 export const Img = styled.img`
     padding-right: 0;
-    border: 20px solid;
+    border: 22px solid #ff9b03;
     border-style: ridge;
     max-width: 100%;
     vertical-align: middle;

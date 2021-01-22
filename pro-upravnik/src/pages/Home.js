@@ -1,14 +1,14 @@
 import React from 'react'
-import HomeOne from '../components/HomeOne/HomeOne'
-import HomeTwo from '../components/HomeTwo/HomeTwo';
-import HomeThree from '../components/HomeThree/HomeThree';
+import HomeSectionOne  from '../components/HomeOne/HomeSectionOne'
+import HomeSectionTwo from '../components/HomeTwo/HomeSectionTwo';
+import HomeSectionThree from '../components/HomeThree/HomeSectionThree';
 
 const Home = () => {
     return (
         <>
-            <HomeOne />
-            <HomeTwo />
-            <HomeThree />
+            <HomeSectionOne />
+            <HomeSectionTwo />
+            <HomeSectionThree />
         </>
     )
 }

@@ -1,9 +1,17 @@
 import React from 'react'
-import {SecondSection, ServiceHeading, ServiceWrapper, ServiceCard, ServiceIcon, ServiceH3, ServiceList, ListItem} from './HomeTwo.styled';
 import Icon1 from '../../imgs/Icon1.svg';
 import Icon2 from '../../imgs/Icon2.svg';
 import Icon3 from '../../imgs/Icon3.svg';
 import Icon4 from '../../imgs/Icon4.svg';
+import {
+    SecondSection, 
+    ServiceHeading, 
+    ServiceWrapper, 
+    ServiceCard, 
+    ServiceIcon, 
+    ServiceH3, 
+    ServiceList, 
+    ListItem} from './HomeTwo.styled';
 
 const HomeTwo = () => {
     return (

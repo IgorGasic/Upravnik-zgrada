@@ -72,6 +72,12 @@ export const FooterLink = styled(Link)`
     text-decoration: none;
     display:inline-flex;
 `
+export const FooterSocial = styled.a`
+    text-decoration:none;
+    color:#fff;
+    margin-bottom:0.8rem;
+    display:inline-flex;
+`
 export const Icon1 = styled(GoLocation)`
     margin-right:0.2rem;
 

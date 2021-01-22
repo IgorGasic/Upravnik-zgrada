@@ -5,15 +5,15 @@ import {FooterContainer,
     FooterLinksItems, 
     FooterLinkTitle, 
     FooterText, 
-    FooterLink, 
+    FooterLink,
+    FooterSocial, 
     Icon1, 
     Icon2,
     Icon3,
     Icon4,
     Icon5,
     Icon6,
-    Icon7   
-    } from './Footer.styled';
+    Icon7} from './Footer.styled';
 
 const Footer = () => {
     return (
@@ -38,8 +38,8 @@ const Footer = () => {
                         </FooterLinksItems>
                         <FooterLinksItems>
                             <FooterLinkTitle>Društvene mreže</FooterLinkTitle>
-                            <a href="https://www.facebook.com/NS-profesionalni-upravnik-stambenih-zgrada-113442150565324" style={{textDecoration:"none", color:"#fff", marginBottom:"0.8rem", display:"inline-flex"}}><Icon5 />Facebook</a>
-                            <a href="https://www.facebook.com/NS-profesionalni-upravnik-stambenih-zgrada-113442150565324" style={{textDecoration:"none", color:"#fff", marginBottom:"0.8rem", display:"inline-flex"}}><Icon6 />Instagram</a>
+                            <FooterSocial href="https://www.facebook.com/NS-profesionalni-upravnik-stambenih-zgrada-113442150565324"><Icon5 />Facebook</FooterSocial>
+                            <FooterSocial href="https://www.facebook.com/NS-profesionalni-upravnik-stambenih-zgrada-113442150565324"><Icon6 />Instagram</FooterSocial>
                         </FooterLinksItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>

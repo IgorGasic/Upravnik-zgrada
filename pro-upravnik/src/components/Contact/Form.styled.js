@@ -11,7 +11,7 @@ export const FormWrapper = styled.div`
     align-items:center;
     padding: 0 20px;
     height: 800px;
-    margin-top: -30px;
+    margin-top: -70px;
 `
 
 export const StyledFrom = styled.form`
@@ -22,9 +22,13 @@ export const StyledFrom = styled.form`
     background-color: #fff;
     border-radius: 10px;
     box-sizing: border-box;
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
     position: relative;
 `
+export const FormLable = styled.label`
+    font-weight:bold;
+`
+
 export const FormInput = styled.input`
     display:block;
     width: 100%;
@@ -44,7 +48,7 @@ export const FormTextArea = styled.textarea`
     height: 40px;
     border-radius: 5px;
     border: 1px solid #ddd;
-    margin: 10px 0 5px 0;
+    margin: 10px 0 0 0;
     padding: 20px;
     box-sizing: border-box;
 `
@@ -56,7 +60,7 @@ export const FormButton = styled.button`
     border: 0;
     border-radius: 5px;
     height: 40px;
-    margin: 20px 0;
+    margin: 25px 0;
     padding: 0 20px;
     cursor: pointer;
     box-sizing: border-box;
@@ -70,35 +74,47 @@ export const FormError = styled.div`
   font-weight: 800;
   margin-bottom: 15px;
   font-size:0.9rem;
+  margin-top: -5px;
 
 `
 export const SuccessWrapper = styled.div`
     display:flex;
+    flex-direction:column;
     justify-content:center;
     align-items:center;
+    margin: 100px 0;
   
 `
+export const SuccessImg = styled.img`
+    height:300px;
+    width:400px;
+`
 export const SuccessForm = styled.div`
-    margin: 300px 0;
+    margin: 50px 0;
     background: green;
     border-radius: 10px;
-    height: 300px;
-    width: 400px; 
+   
 `
 export const SuccessText = styled.p`
     text-align:center;
-    padding-top:35%;
+    padding-top:10%;
+    padding-bottom:10%;
     color:#fff;
     font-size: 2rem;
     font-weight: bold;
 `
 export const SuccessButton = styled(Link)`
-    display:block;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    height: 50px;
+    width: 200px;
     border-radius: 10px;
     text-decoration:none;
     padding: 10px 10px;
     background-color: #92f2fc;
     color: #ff9b03;
-    margin-top:150px;
+    margin-top:10px;
     text-align: center;
+    font-size: 1.3rem;    
 `

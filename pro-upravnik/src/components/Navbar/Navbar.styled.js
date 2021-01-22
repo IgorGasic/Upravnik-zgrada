@@ -32,7 +32,6 @@ export const NavLogo = styled(Link)`
     text-decoration:none;
     color:#ff9b03;
     font-size: 2rem;
-    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.8);
 
     @media screen and (max-width: 760px){
         font-size: 1.1rem;
@@ -55,7 +54,7 @@ export const MobileIcon = styled.div`
     top:0;
     right:0;
     transform: translate(-100%, 60%);
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     cursor: pointer;
     }    
 `
@@ -103,7 +102,6 @@ export const NavLinks = styled(Link)`
     text-decoration: none;
     padding: 0.5rem 1rem;
     height:100%;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
 
     @media screen and (max-width: 960px){
         text-align:center;

@@ -1,7 +1,14 @@
 import React from 'react'
-import {FirstSection, InfoRow, InfoColumn, TextWrapper, ImgWrapper, Img} from './HomeOne.styled';
 import Djole from '../../imgs/Djole.png';
 import { Container } from '../../GlobalStyle';
+import {
+    FirstSection, 
+    InfoRow, 
+    InfoColumn, 
+    TextWrapper, 
+    ImgWrapper, 
+    Img} from './HomeOne.styled';
+
 
 const HomeOne = () => {
     return (
