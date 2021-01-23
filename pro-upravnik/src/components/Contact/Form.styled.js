@@ -82,18 +82,23 @@ export const SuccessWrapper = styled.div`
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    margin: 100px 0;
-  
+    margin: 100px 0;  
 `
 export const SuccessImg = styled.img`
     height:300px;
     width:400px;
+ 
+    @media screen and (max-width: 800px){
+        padding-left: 20px;
+        margin-left: 20px;
+        height: 200px;
+        width: 200px;
+    }
 `
 export const SuccessForm = styled.div`
     margin: 50px 0;
     background: green;
-    border-radius: 10px;
-   
+    border-radius: 10px;   
 `
 export const SuccessText = styled.p`
     text-align:center;
@@ -102,6 +107,10 @@ export const SuccessText = styled.p`
     color:#fff;
     font-size: 2rem;
     font-weight: bold;
+
+    @media screen and (max-width: 800px){
+        font-size:1.4rem;
+    }
 `
 export const SuccessButton = styled(Link)`
     display:flex;

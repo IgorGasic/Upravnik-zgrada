@@ -8,6 +8,7 @@ export const SecondSection = styled.div`
     background:#92f2fc;
     width:100%;
     padding: 150px 0 160px;
+
 `
 export const ServiceWrapper = styled.div`
     max-width: 1300px;
@@ -17,12 +18,13 @@ export const ServiceWrapper = styled.div`
     align-items: center;
     padding: 0 50px;
     
-    @media screen and (max-width: 960px){
+    @media screen and (max-width: 1025px){
         margin: 0 30px;
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         align-items: center;
         padding: 20px 0;
+        margin-top: 10px;
     }
 `
 export const ServiceCard = styled.div`
@@ -42,13 +44,14 @@ export const ServiceCard = styled.div`
         transform: scale(1.05);
         transition: all 0.2s ease-in-out;
         cursor: pointer;
-    }   
+    }
 
-    @media screen and (max-width: 960px){
+    @media screen and (max-width: 1025px){
         width: 100%;
         margin-bottom: 20px;
         max-height:500px;
-    }
+        margin-top: 20px;
+    } 
 `
 export const ServiceIcon = styled.img`
     margin-top: 10px;
@@ -88,5 +91,13 @@ export const ListItem = styled.li`
     margin-bottom: 5px;
     text-align:center;
     font-size: 1.1rem;
+
+    @media screen and (max-width: 1025px){
+        font-size:1.8rem;
+    }
+
+    @media screen and (max-width: 500px){
+        font-size: 1rem;
+    }
     
 `

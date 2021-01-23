@@ -30,7 +30,13 @@ export const FooterLinksContainer = styled.div`
 export const FooterLinksWrapper = styled.div`
     display:flex;
     
-    @media screen and (max-width: 820px){
+    @media screen and (max-width: 1025px){
+        display:flex;
+        flex-direction:row;
+    }
+
+    @media screen and (max-width: 420px){
+        display:flex;
         flex-direction:column;
     }
 `
@@ -44,10 +50,11 @@ export const FooterLinksItems = styled.div`
     box-sizing:border-box;
     color: #fff;
 
-    @media screen and (max-width: 820px){
+    @media screen and (max-width: 1025px){
         margin: 0;
         padding: 10px;
         width: 100%;
+        
     }
     
     @media screen and (max-width: 420px){
