@@ -1,5 +1,5 @@
 import React from 'react'
-import Djole from '../../imgs/Djole.png';
+import djole from '../../imgs/djole.gif';
 import { Container } from '../../GlobalStyle';
 import {
     FirstSection, 
@@ -29,7 +29,7 @@ const HomeOne = () => {
                         </InfoColumn>
                         <InfoColumn>
                             <ImgWrapper>
-                                <Img src={Djole} alt={"djole"}/>
+                                <Img src={djole} alt={"Ns-pro-upravnik-zgrada"} name={"Ns-profesionalni-upravnik-zgrada"}/>
                             </ImgWrapper> 
                         </InfoColumn>
                     </InfoRow>

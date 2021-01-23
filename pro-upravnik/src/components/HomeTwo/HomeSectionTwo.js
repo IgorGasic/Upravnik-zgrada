@@ -17,10 +17,10 @@ const HomeTwo = () => {
     return (
         <>
             <SecondSection>
-                <ServiceHeading>Poslovi profesionalnog upravljanja zgradom </ServiceHeading>
+                <ServiceHeading>Poslovi profesionalnog upravnika zgradom </ServiceHeading>
                 <ServiceWrapper>
                     <ServiceCard>
-                        <ServiceIcon src={Icon1} />
+                        <ServiceIcon src={Icon1} alt={"administrativni-poslovi"} name={"administrativni-poslovi-upravnika-zgrada"}/>
                         <ServiceH3>Administrativni poslovi</ServiceH3>
                         <ServiceList>
                             <ListItem>•	Osnivanje stambene zajednice</ListItem>
@@ -29,11 +29,11 @@ const HomeTwo = () => {
                             <ListItem>•	Upis stambene zajednice u Registar stambenih zajednica lokalne samouprave</ListItem>
                             <ListItem>•	Podnošenje prijave za registraciju Pravila vlasnika</ListItem>
                             <ListItem>•	Zaključivanje ugovora za održavanje stambene zgrade i održavanje higijene</ListItem>
-                            <ListItem>•	Izrada izveštaja o radu</ListItem>
+                            <ListItem>•	Izrada izveštaja o radu upravnika zgrade</ListItem>
                         </ServiceList>
                     </ServiceCard>
                     <ServiceCard>
-                        <ServiceIcon src={Icon2} />
+                        <ServiceIcon src={Icon2} alt={"finansijski-poslovi"} name={"finansijski-poslovi-upravnika-zgrada"}/>
                         <ServiceH3>Finansijski poslovi</ServiceH3>
                         <ServiceList>
                             <ListItem>•	Raspolaganje sredstvima sa tekućeg računa stambene zajednice</ListItem>
@@ -44,7 +44,7 @@ const HomeTwo = () => {
                         </ServiceList>
                     </ServiceCard>
                     <ServiceCard>
-                        <ServiceIcon src={Icon3} />
+                        <ServiceIcon src={Icon3} alt={"tehnicki-poslovi"} name={"tehnicki-poslovi-upravnika-zgrada"} />
                         <ServiceH3>Tehnički poslovi</ServiceH3>
                         <ServiceList>
                             <ListItem>•	Realizacija radova na hitnim intervencijama ( u što kraćem vremenskom roku a najkasnije 48 sati od prijave vlasnika stanova.)</ListItem>
@@ -53,7 +53,7 @@ const HomeTwo = () => {
                         </ServiceList>
                     </ServiceCard>
                     <ServiceCard>
-                        <ServiceIcon src={Icon4} />
+                        <ServiceIcon src={Icon4} alt={"ciscenje-profesionalnim-masinama"} name={"ciscenje-profesionalnim-masinama-upravnika-zgrada"}/>
                         <ServiceH3>Čišćenje profesionalnim mašinama</ServiceH3>
                         <ServiceList>
                             <ListItem>•	Mašinsko pranje ulaza i stepenište zgrade</ListItem>
