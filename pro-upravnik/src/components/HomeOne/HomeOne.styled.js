@@ -30,10 +30,11 @@ export const TextWrapper= styled.div`
     max-width:540px;
     padding-top: 0;
     padding-bottom: 60px;
-    font-size: 1.9rem;
-    text-align:center;
+    font-size: 1.1rem;
     font-weight: bold;
     word-spacing: 0rem;
+    text-align: justify;
+    text-justify: inter-word;
 
     @media screen and (max-width: 768px){
         padding-bottom:65px;
@@ -54,6 +55,15 @@ export const Img = styled.img`
     vertical-align: middle;
     display: inline-block;
     max-height: 750px;
+`
+export const Title = styled.h3`
+    text-align:center;
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+    padding-top: 20px;
+`
+export const InfoContent = styled.div`
+    
 `
 
 

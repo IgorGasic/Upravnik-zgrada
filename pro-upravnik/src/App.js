@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Footer from './components/Footer/Footer';
 import Contact from './pages/Contact';
 import ScrollToTop from './ScrollToTop';
+import Gallery from './pages/Gallery';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <ScrollToTop />
       <Switch>
         <Route path="/" exact component={Home} />
+        <Route path="/galerija" component={Gallery} /> 
         <Route path="/contact" component={Contact}/>
       </Switch>
       <Footer />

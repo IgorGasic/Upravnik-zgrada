@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
-export const FirstSection = styled.div`
+export const ThirdSection = styled.div`
     color:black;
-    padding: 120px 0 100px 0;
+    padding: 80px 0 80px 0;
 `
 
 export const InfoRow = styled.div`
@@ -29,13 +29,13 @@ export const InfoColumn = styled.div`
 
 export const TextWrapper= styled.div`
     max-width:540px;
-    padding-top: 0;
+    padding-top: 70px;
     padding-bottom: 60px;
-    font-size: 1.9rem;
-    text-justify: inter-word;
-    text-align: center;
+    font-size: 1.1rem;
     font-weight: bold;
     word-spacing: 0rem;
+    text-align: justify;
+    text-justify: inter-word;
 
     @media screen and (max-width: 768px){
         padding-bottom:65px;

@@ -55,7 +55,8 @@ export const FormTextArea = styled.textarea`
 export const FormButton = styled.button`
     display:block;
     background-color: #92f2fc;
-    color: #ff9b03;
+    color: #666666;
+    font-weight:bold;
     font-size: 0.9rem;
     border: 0;
     border-radius: 5px;

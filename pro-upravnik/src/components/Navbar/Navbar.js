@@ -1,3 +1,4 @@
+
 import React, {useState} from 'react';
 import slika from '../../imgs/NS.jpg'
 import {FaBars, FaTimes} from 'react-icons/fa';
@@ -22,7 +23,7 @@ const Navbar = () => {
     return (
         <> 
         <img src={slika} alt="slika" style={{width:"100%", marginBottom:"-5px", padding:"0px"}}/>
-         <IconContext.Provider value={{color: "#ff9b03"}}>
+         <IconContext.Provider value={{color: "#666666"}}>
             <Nav>
                 <NavbarContainer>
                     <NavLogo to='/'>

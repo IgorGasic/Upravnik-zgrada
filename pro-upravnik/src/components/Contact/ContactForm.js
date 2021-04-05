@@ -4,7 +4,7 @@ import FormSuccess from './FormSuccess';
 
 const ContactForm = () => {
     const [isSubmitted, setIsSubmitted] = useState(false);
-
+    
     function submitForm(){
         setIsSubmitted(true);
     }

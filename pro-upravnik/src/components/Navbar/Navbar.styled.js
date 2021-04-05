@@ -30,7 +30,7 @@ export const NavLogo = styled(Link)`
     display:flex;
     align-items:center;
     text-decoration:none;
-    color:#ff9b03;
+    color:#666666;
     font-size: 2rem;
 
     @media screen and (max-width: 760px){
@@ -56,6 +56,7 @@ export const MobileIcon = styled.div`
     transform: translate(-100%, 60%);
     font-size: 1.9rem;
     cursor: pointer;
+    width: 25px;
     }    
 `
 
@@ -84,7 +85,7 @@ export const NavItem = styled.li`
     font-size:1.5rem;
     
     &:hover{
-        border-bottom: 2px solid #ff9b03;
+        border-bottom: 2px solid #666666;
     }
     
     @media screen and (max-width: 960px){
@@ -96,7 +97,7 @@ export const NavItem = styled.li`
     }
 `
 export const NavLinks = styled(Link)`
-    color: #ff9b03;
+    color: #666666;
     display: flex;
     align-items: center;
     text-decoration: none;

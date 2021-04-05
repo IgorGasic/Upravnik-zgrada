@@ -11,7 +11,7 @@ export const SecondSection = styled.div`
 
 `
 export const ServiceWrapper = styled.div`
-    max-width: 1300px;
+    max-width:1300px;
     margin: 0 auto;
     display: flex;
     flex-direction:row;
@@ -28,12 +28,12 @@ export const ServiceWrapper = styled.div`
     }
 `
 export const ServiceCard = styled.div`
-    background: #f5c276;
+    background: #a6a6a6;
     display: flex;
     flex-direction:column;
     align-items: center;
     border-radius: 10px;
-    min-height: 620px;
+    min-height: 635px;
     padding: 10px;
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.8);
     transition: all 0.2s ease-in-out;
@@ -61,7 +61,7 @@ export const ServiceIcon = styled.img`
 `
 export const ServiceHeading = styled.h1`
     font-size: 2.5rem;
-    color: #ff9b03;
+    color: #8c8c8c;
     margin-bottom: 50px;
     text-shadow: 0 2px 2px rgba(0, 0, 0, 0.8);
 
